@@ -128,6 +128,7 @@ class Listings_Widget extends \Elementor\Widget_Base {
         $listings[] = '<div class="officespace-listing">'.
                         '<a id="building_'.$bld->id.'" class="building-item-link" href="'.$url["scheme"]."://".$url['host'].$bld->building_path.'">'.
                           '<div class="image td">'.
+                            '<span class="helper"></span>'.
                             '<img src="'.$img_url.'" />'.
                           '</div>'.
                           '<div class="name td">'.
