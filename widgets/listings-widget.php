@@ -139,6 +139,7 @@ class Listings_Widget extends \Elementor\Widget_Base {
                       '</div>';
       }
     }
+      $listings[] = '<div class=""></div>';
     return $listings;
   }
 
