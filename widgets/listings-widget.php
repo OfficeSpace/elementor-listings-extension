@@ -139,7 +139,6 @@ class Listings_Widget extends \Elementor\Widget_Base {
                       '</div>';
       }
     }
-      $listings[] = '<div class=""></div>';
     return $listings;
   }
 
@@ -156,14 +155,12 @@ class Listings_Widget extends \Elementor\Widget_Base {
     $settings = $this->get_settings_for_display();
 
     $listings = $this-> get_listings(intval($settings['number']));
-    $call_to_action = array_pop($listings);
     echo '<div class="listings-elementor-widget">';
     foreach( $listings as $listing ) {
       echo $listing;
     }
 
     echo '</div>';
-    echo $call_to_action;
 
   }
 }
