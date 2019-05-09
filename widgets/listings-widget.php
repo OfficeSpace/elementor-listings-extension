@@ -138,7 +138,6 @@ class Listings_Widget extends \Elementor\Widget_Base {
                         '</a>'.
                       '</div>';
       }
-      $listings[] = '<div class="listings-call-to-action"><a href="'.$url['scheme'].'://'.$url['host'].'/'.$default_path.'">Search All Listings</a></div>';
     }
     return $listings;
   }
