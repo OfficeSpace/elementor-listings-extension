@@ -4,7 +4,7 @@
  * Description: Elementor Listings Extension makes calls to OfficeSpace.com to add listings to page
  * Plugin URI: https://www.officespace.com
  * Author: Kirk Johnson
- * Version: 0.0.1
+ * Version: 0.0.2
  * Author URI: https://www.officespace.com
  *
  * Text Domain: elementor-listings-extension

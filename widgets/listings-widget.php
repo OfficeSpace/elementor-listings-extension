@@ -123,7 +123,7 @@ class Listings_Widget extends \Elementor\Widget_Base {
           $market_name = $bld->market_name;
         }
 
-        $img_url = (empty($bld->photo_source_url)) ? $bld->map_image : $bld->photo_source_url;
+        $img_url = (empty($bld->image)) ? $bld->map_image : $bld->image;
 
         $listings[] = '<div class="officespace-listing">'.
                         '<a id="building_'.$bld->id.'" class="building-item-link" href="'.$url["scheme"]."://".$url['host'].$bld->building_path.'">'.
